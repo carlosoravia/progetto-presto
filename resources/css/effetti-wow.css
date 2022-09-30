@@ -1,0 +1,185 @@
+/* * inizio effetto wow grigio*/
+
+.wow{
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 3px var(--grey-2);
+    border-radius: 3px;
+}
+
+.wow:hover{
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    box-shadow: 10px 10px 3px var(--grey-border), 20px 20px 4px var(--grey-fade);
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 780px) {
+
+    .wow{
+        box-shadow: none;
+    }
+    .wow:hover{
+        box-shadow: none;
+        transition: none;
+        border-radius: none ;
+    }
+}
+
+.btn-wow-grey{
+    width: max-content;
+    height: max-content;
+    box-shadow: 5px 5px 3px var(--grey-2);
+    border-radius: 3px;
+}
+
+.btn-wow-grey:hover{
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    box-shadow: 5px 5px 3px var(--grey-2), 10px 10px 3px var(--grey-fade);
+    border-radius: 3px;
+}
+
+/* fine effetto wow grigio */
+
+
+
+/* inizio effetto wow giallo*/
+
+/* grossi componenti */
+.wow-yellow{
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 3px var(--yellow);
+    border-radius: 3px;
+}
+
+.wow-yellow:hover{
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    box-shadow: 10px 10px 3px var(--yellow), 20px 20px 3px var(--yellow-fade);
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 780px) {
+
+    .wow-yellow{
+        box-shadow: none;
+    }
+    .wow-yellow:hover{
+        box-shadow: none;
+        transition: none;
+        border-radius: none ;
+    }
+}
+
+/* bottoni */
+.btn-wow-yellow{
+    width: max-content;
+    height: max-content;
+    box-shadow: 5px 5px 3px var(--yellow);
+    border-radius: 3px;
+}
+
+/* .btn-wow-yellow:hover{
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    box-shadow: 5px 5px 3px var(--yellow), 10px 10px 3px var(--yellow-fade);
+    border-radius: 3px;
+} */
+
+
+
+/* fine effetto wow giallo*/
+
+
+
+/* inizio effetto wow rosso*/
+
+.wow-red{
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 3px var(--red);
+    border-radius: 3px;
+}
+
+.wow-red:hover{
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    box-shadow: 10px 10px 3px var(--red), 20px 20px 3px var(--red-fade);
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 780px) {
+
+    .wow-red{
+        box-shadow: none;
+    }
+    .wow-red:hover{
+        box-shadow: none;
+        transition: none;
+        border-radius: none ;
+    }
+}
+
+.btn-wow-red{
+    width: max-content;
+    height: max-content;
+    box-shadow: 5px 5px 3px var(--red);
+    border-radius: 3px;
+}
+
+/* .btn-wow-red:hover{
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    box-shadow: 5px 5px 3px var(--red), 10px 10px 3px var(--red-fade);
+    border-radius: 3px;
+} */
+
+/* fine effetto wow rosso */
+
+
+
+/* inizio effetto wow bianco*/
+
+.wow-white{
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 3px var(--white);
+    border-radius: 3px;
+}
+
+.wow-white:hover{
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    box-shadow: 10px 10px 3px var(--white), 20px 20px 3px var(--red);
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 780px) {
+
+    .wow-white{
+        box-shadow: none;
+    }
+    .wow-white:hover{
+        box-shadow: none;
+        transition: none;
+        border-radius: none ;
+    }
+}
+
+.btn-wow-white{
+    width: max-content;
+    height: max-content;
+    box-shadow: 5px 5px 3px var(--white);
+    border-radius: 3px;
+}
+
+/* .btn-wow-white:hover{
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    box-shadow: 5px 5px 3px var(--white), 10px 10px 3px var(--white-fade);
+    border-radius: 3px;
+} */
+
+/* fine effetto wow bianco */

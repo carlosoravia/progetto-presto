@@ -1,0 +1,79 @@
+.swiper-home{
+    width: 30vw;
+    height: max-content;
+    margin: auto;
+    z-index: 0;
+    overflow: hidden;
+    background-color: none;
+    /* overflow: hidden; */
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    height: min-content;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-button-next{
+    width: 20%;
+    height: 20%;
+    z-index: 2000;
+}
+
+.swiper-button-prev{
+    width: 20%;
+    height: 20%;
+    z-index: 2000;
+}
+
+.btn-swiper{
+    margin: auto;
+    display: block;
+    height: max-content;
+    width: max-content;
+    z-index: 4000;
+}
+
+.card-swiper{
+    overflow-wrap: unset;
+    display: block;
+}
+
+
+
+.swiper-mobile {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide-mobile {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide-mobile img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

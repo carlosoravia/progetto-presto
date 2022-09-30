@@ -1,0 +1,8 @@
+.footer-link{
+    text-decoration: none;
+    color: azure;
+}
+
+.footer-link:hover{
+    color: brown;
+}

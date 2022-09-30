@@ -1,0 +1,185 @@
+
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Raleway black 900', sans-serif;
+    overflow-wrap: break-word;
+    color: var(--white-solid);
+}
+
+a{
+    color: var(--white);
+}
+
+a:hover{
+    color: var(--red) !important;
+}
+
+
+/* inizio sfondi  */
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+
+.bg-card{
+    background-color: var(--bg-card);
+}
+
+/* fine sfondi */
+
+
+
+
+/* inizio scritte */
+
+.text-dark{
+    color: var(--black-solid) !important;
+}
+.text-dark-al{
+    color: var(--dark-al);
+}
+.text-dark-al > h1{
+    color: var(--dark-al);
+}
+
+
+.text-white{
+    color: var(--white-solid) !important;
+}
+
+.text-warning{
+    color: var(--white) !important;
+}
+
+.text-price{
+    color: var(--text-card-3);
+}
+/* fine scritte */
+
+
+
+/* inizio bottoni */
+
+.btn-info{
+    background-color: var(--red);
+    border: 2px solid var(--white-solid) !important;
+}
+
+.btn-info:hover{
+    background-color: var(--primary);
+    border: 2px solid var(--white-solid) !important;
+}
+
+
+
+.btn-outline-light{
+    border: 2px solid var(--white-solid) !important;
+    color: var(--dark-solid) !important;
+}
+.btn-outline-light:hover{
+    transition: 400ms !important;
+    border: 2px solid var(--white-solid) !important;
+    background-color: var(--white-solid) !important;
+    color: var(--black-solid) !important;
+}
+
+
+
+.btn-outline-warning{
+    border: 2px solid var(--yellow-border) !important;
+    color: var(--white-solid) !important;
+}
+
+.btn-outline-warning:hover{
+    border: 2px solid var(--yellow-border) !important;
+    color: var(--btn-text) !important;
+}
+
+.btn-outline-warning > i{
+    color: var(--red-fade) !important;
+}
+
+
+
+.btn-outline-danger{
+    border: 2px solid var(--red) !important;
+    color: var(--white-solid) !important;
+}
+
+.btn-outline-danger:hover{
+    border: 2px solid var(--red) !important;
+    color: var(--btn-text) !important;
+}
+
+
+.btn-outline-dark{
+    background-color: var(--dark);
+}
+/* fine bottoni */
+
+
+
+/* inizio bordi  */
+
+.border-warning{
+    border: 2px solid var(--white-solid) !important;
+}
+
+.border-danger{
+    border: 2px solid var(--white-solid) !important;
+}
+
+.border-primary{
+    border: 2px solid var(--white-solid) !important;
+}
+
+.border-secondary{
+    border: 2px solid var(--white-solid) !important;
+}
+/* fine bordi   */
+
+
+
+/* inizo tabella revisore */
+
+.table-stripped{
+    color: var(--white) !important;
+    background-color: var(--primary) !important;
+}
+
+.table-stripped > button{
+    color: var(--dark) !important;
+}
+
+/* fine tabella revisore */
+
+
+
+
+
+/* @media screen and (max-width: 780px) {
+    .table{
+        overflow: scroll !important;
+        width: 100vh;
+        height: 90% ;
+    }
+} */
+
+
+
+.empty-revisor{
+    height: 60vh;
+    padding-top: 20vh;
+}

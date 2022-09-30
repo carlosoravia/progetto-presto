@@ -1,0 +1,35 @@
+<?php
+return[
+    'home'=>'Our Articles!',
+    'navbarContatti'=>'Contact us',
+    'navbarArticoli'=>'All our articles',
+    'btn-language'=>'En',
+    'chiSiamo'=>'Find out who we are! 🧐',
+    'scopri'=>'Find out how much effort 6 ran away from home made',
+    'nuovaCategoria'=>'❌ New Category! ❌',
+    'cliccaBottone'=>'Click the button and find out what it is',
+    'tecnologia'=>'A little bit of technology!',
+    'mese'=>'This month for the category',
+    'sconti'=>' discounts starting from 15%! 😝',
+    'visita'=>'Visit',
+    'informatica'=>'Informatics',
+    'scopriDiPiu'=>'Find out more\'',
+    'ops'=>'❌ Oops! Your search returned no matches... ❌',
+    'cosaFare'=>'What to do now?! 🤔',
+    'nottiPerse'=>'Who has lost the nights',
+    'lavora'=>'Do you want to work with us?',
+    'diventa'=>'Quickly become our new article reviewer:',
+    'revisore'=>'Become a reviewer',
+    'collabora'=>'Collaborate with us!',
+    'vuoi'=>'Do you want to become an auditor?',
+    'entra'=>'Become part of our team!',
+    'click'=>'Click the button below and submit your request immediately.',
+    'revisorBotton'=>'Become a reviewer 📩',
+    'articoli'=>'Articles to be reviewed',
+    'tabella'=>'Reviewer table',
+    'register'=>'Sign in',
+    'creaArt'=>'Create article',
+    'choose'=>'What do you want to do now ?!'
+
+];
+
