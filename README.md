@@ -1,16 +1,22 @@
 ##About the project 
-<p>
-    This was our final project for Aualb, an Italian bootcamp where we learned Laravel and web development, in particular for fullstack developers.
-    We added a dark mode (using vanilla JavaScript), this will create a coockie who memorize whitch mode was selected by the user, so when he will return on our site this will display his favourite colors.
-    
-    The user who isn't logged yet will be able to visit the site and views articles wrote by other logged users. 
-    The user can log and create articles, those article have to be accepted by a user who is an amministrator.
-    The articles can contains multiple images, a title, a sub title, a caption and a price.
-    The user can make a request to be revisor, this request can be visualize in the mail box of the amministrator, in our case on mail trap whitch simulate  an amministrator inbox.
-    The revisor have his own dashboard where he can check the articles, to make this simple we had implemented Google's API for an AI who can check: 
-    - if there are faces on the phostos they will be cover up.
-    - if there's violece or sensitive content the revisor will see a red flag on those voices, if they're ok there will be a green flag.
-</p>
+This was our final project for Aualb, an Italian bootcamp where we learned Laravel and web development, in particular for fullstack developers.
+We added a dark mode (using vanilla JavaScript), this will create a coockie who memorize whitch mode was selected by the user, so when he will return on our site this will display his favourite colors.
+<ul>
+    <li>The user who isn't logged yet will be able to visit the site and views articles wrote by other logged users. </li>
+    <li>The user can log and create articles, those article have to be accepted by a user who is an amministrator.</li>
+    <li>The articles can contains multiple images, a title, a sub title, a caption and a price.</li>
+    <li>The user can make a request to be revisor, this request can be visualize in the mail box of the amministrator, in our case on mail trap whitch simulate  an amministrator inbox.</li>
+</ul>
+
+<br>
+
+The revisor have his own dashboard where he can check the articles, to make this simple we had implemented Google's API for an AI who can check: 
+<ul>
+    <li>if there are faces on the phostos they will be cover up.</li>
+    <li>if there's violece or sensitive content the revisor will see a red flag on those voices, if they're ok there will be a green flag.</li>
+</ul>
+
+<br>
 
 ## How we made it:
  <ul>
