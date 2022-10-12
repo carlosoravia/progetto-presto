@@ -1,4 +1,5 @@
-##About the project 
+## About the project 
+
 This was our final project for Aualb, an Italian bootcamp where we learned Laravel and web development, in particular for fullstack developers.
 We added a dark mode (using vanilla JavaScript), this will create a coockie who memorize whitch mode was selected by the user, so when he will return on our site this will display his favourite colors.
 <ul>
