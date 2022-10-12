@@ -1,4 +1,4 @@
-## <h1>About the project</h1>
+## <h1 style="color:red">About the project</h1>
 <br>
 This was our final project for Aualb, an Italian bootcamp where we learned Laravel and web development, in particular for fullstack developers.
 We added a dark mode (using vanilla JavaScript), this will create a coockie who memorize whitch mode was selected by the user, so when he will return on our site this will display his favourite colors.
