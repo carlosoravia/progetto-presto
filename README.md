@@ -1,4 +1,4 @@
-## <h1 style="color:red">About the project</h1>
+## About the project
 <br>
 This was our final project for Aualb, an Italian bootcamp where we learned Laravel and web development, in particular for fullstack developers.
 We added a dark mode (using vanilla JavaScript), this will create a coockie who memorize whitch mode was selected by the user, so when he will return on our site this will display his favourite colors.
@@ -16,9 +16,7 @@ The revisor have his own dashboard where he can check the articles, to make this
     <li>if there are faces on the phostos they will be cover up.</li>
     <li>if there's violece or sensitive content the revisor will see a red flag on those voices, if they're ok there will be a green flag.</li>
 </ul>
-
 <br>
-
 ## How we made it:
  <ul>
     <li>Backend: PHP</li>
